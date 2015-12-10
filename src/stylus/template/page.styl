@@ -4,11 +4,21 @@
 	width 100%
 
 .app-header
+.text
 	max-width maxWidth
 	margin 0 auto
 	top 0
 	width 100%
-	+above(1200px)
+
+.text
+	max-width 600px
+	line-height 1.6
+	font-weight 100
+	font-size 1.8em
+	display none
+	
+.app-header
+	+above(wideStream)
 		position absolute
 		left 0
 		top 0

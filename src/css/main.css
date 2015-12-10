@@ -28,16 +28,19 @@ button,
   padding: 10px;
   background: #fff;
   color: #000;
-  margin: 10px;
   position: relative;
   border-radius: 3px;
   box-shadow: 1px 2px 0px rgba(0,0,0,0.5);
   outline: 0;
+  font-size: 1em;
+  margin-right: 1em;
+  cursor: pointer;
 }
 button:hover,
 .button:hover,
 .btn:hover {
-  background: #ccc;
+  background: #ed1c24;
+  color: #fff;
 }
 button:active,
 .button:active,
@@ -69,7 +72,7 @@ button.hide,
   margin: 0;
   display: block;
 }
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1500px) {
   .logo {
     background-size: 80%;
     width: 20%;
@@ -199,9 +202,14 @@ footer a {
   color: #fff;
 }
 .page-wrapper {
-  height: 100vh;
+  height: 70vh;
   display: table;
   width: 100%;
+}
+@media only screen and (min-width: 480px) {
+  .page-wrapper {
+    height: 100vh;
+  }
 }
 .app-header,
 .text {
@@ -214,10 +222,17 @@ footer a {
   max-width: 600px;
   line-height: 1.6;
   font-weight: 100;
-  font-size: 1.8em;
-  padding: 1em 0;
+  font-size: 1.4em;
+  padding: 1em 5%;
+  width: 90%;
 }
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 480px) {
+  .text {
+    font-size: 1.8em;
+    padding: 1em 0;
+  }
+}
+@media only screen and (min-width: 1500px) {
   .app-header {
     position: absolute;
     left: 0;

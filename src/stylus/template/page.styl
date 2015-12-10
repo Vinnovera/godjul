@@ -1,7 +1,9 @@
 .page-wrapper
-	height 100vh
+	height 70vh
 	display table
 	width 100%
+	+above(480px)
+		height 100vh
 
 .app-header
 .text
@@ -14,8 +16,13 @@
 	max-width 600px
 	line-height 1.6
 	font-weight 100
-	font-size 1.8em
-	padding 1em 0
+	font-size 1.4em
+	padding 1em 5%
+	width 90%
+	+above(480px)
+		font-size 1.8em
+		padding 1em 0
+		
 	
 .app-header
 	+above(wideStream)

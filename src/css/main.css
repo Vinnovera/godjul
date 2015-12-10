@@ -215,6 +215,7 @@ footer a {
   line-height: 1.6;
   font-weight: 100;
   font-size: 1.8em;
+  padding: 1em 0;
 }
 @media only screen and (min-width: 1400px) {
   .app-header {
